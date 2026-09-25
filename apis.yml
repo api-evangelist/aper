@@ -1,7 +1,6 @@
 aid: aper
 name: Aper
-description: 'Aper is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Aper is a cloud commerce platform for banks and financial institutions, offering AI‑driven marketplace solutions across Latin America. It provides end‑to‑end commerce infrastructure, merchant ecosystem, logistics, and AI personalization, enabling banks to launch branded marketplaces in weeks. Aper partners with telcos and verticals, delivering secure, scalable commerce with revenue‑share models and extensive merchant catalog.'
 url: https://raw.githubusercontent.com/api-evangelist/aper/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -19,5 +18,7 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aper-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/aper_stock/
+  url: https://aper.com/
